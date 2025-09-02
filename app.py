@@ -9,10 +9,9 @@ with open("tfidf_vectorizer.pkl", "rb") as vectorizer_file:
 
 app = Flask(__name__)
 
-def home():
-    return render_template("login.html")
 
-@app.route("/submit", methods=["GET", "POST"])
+
+@app.route("/", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
         username = request.form.get("username")
