@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-flask==3.1.2
-pandas==2.2.3
-numpy==2.2.3
-matplotlib==3.10.3
-nltk==3.9.1
-scikit-learn==1.6.1
-=======
+python==3.13.2
 flask==3.1.2
 pandas==2.2.3
 numpy==2.2.3
@@ -14,4 +7,4 @@ nltk==3.9.1
 scikit-learn==1.6.1
 gunicorn==23.0.0
 
->>>>>>> 195e79d9dde00c4efe2f15180f37ccd8e71ec6a4
+
